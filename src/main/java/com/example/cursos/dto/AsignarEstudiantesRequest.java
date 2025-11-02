@@ -1,4 +1,6 @@
 package com.example.cursos.dto;
 
-public class AsignarEstudianteRequest {
-}
+import java.util.List;
+
+// Recibe una lista de ids de estudiantes para asociar al curso
+public record AsignarEstudiantesRequest(List<Long> estudianteIds) {}

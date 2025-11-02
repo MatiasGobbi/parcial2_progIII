@@ -1,4 +1,4 @@
 package com.example.cursos.dto;
 
-public class EstudianteDTO {
-}
+// Transporta datos públicos del estudiante
+public record EstudianteDTO(Long id, String nombre, String matricula) {}

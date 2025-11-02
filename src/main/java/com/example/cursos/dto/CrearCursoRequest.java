@@ -1,4 +1,4 @@
 package com.example.cursos.dto;
 
-public class CrearCursoRequest {
-}
+// Recibe el nombre del curso y el id del profesor existente
+public record CrearCursoRequest(String nombre, Long profesorId) {}
